@@ -54,7 +54,7 @@ Program ini disarankan hanya digunakan di windows OS. Untuk menjalan program ada
 
    ![image](https://cdn.discordapp.com/attachments/941288781401698307/944253492451737681/unknown.png)
 
-2. Langsung menggunakan file executable pada folder bin (syarat sudah pernah melakukan install menggunakan maven seperti langkah di s):
+2. Langsung menggunakan file executable pada folder bin (syarat sudah pernah melakukan install menggunakan maven seperti langkah di atas):
   1. Copykan file .jar pada folder bin ke ```\starter-bots\java\target```    
   2. Ubah nama pada .jar tadi menjadi ```java-starter-bot-jar-with-dependencies.jar``` atau buka file ```bot.json``` pada ```\starter-bots\java``` kemudian ubah isi ```"botFileName":``` menjadi nama file .jar pada folder bin
 
