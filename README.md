@@ -30,6 +30,7 @@ hasil kompresi gambar (perubahan jumlah pixel gambar).
 ***[Perhatikan]***
 **Pada pentunjuk ini diasumsikan pengguna sudah mendownload starter pack zip [disini ini](https://github.com/EntelectChallenge/2020-Overdrive/releases/tag/2020.3.4)**
 Program ini disarankan hanya digunakan di windows OS. Untuk menjalan program ada dua pilihan cara, yaitu 
+
 A. Menggunakan fitur maven pada IntelIiJ IDEA :
 
   1. Copykan seluruh isi file pada folder src ke ```\starter-bots\java```
