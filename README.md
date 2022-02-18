@@ -58,11 +58,14 @@ Program ini disarankan hanya digunakan di windows OS. Untuk menjalan program ada
   1. Copykan file .jar pada folder bin ke ```\starter-bots\java\target```    
   2. Ubah nama pada .jar tadi menjadi ```java-starter-bot-jar-with-dependencies.jar``` atau buka file ```bot.json``` pada ```\starter-bots\java``` kemudian ubah isi ```"botFileName":``` menjadi nama file .jar pada folder bin
 
-   ![image](https://cdn.discordapp.com/attachments/941288781401698307/944255748282654730/unknown.png) 
+   ![image](https://cdn.discordapp.com/attachments/941288781401698307/944256857906770030/unknown.png) 
    ![image](https://cdn.discordapp.com/attachments/941288781401698307/944256347195715594/unknown.png) 
    
   3. Untuk menjalankan program, langsung membukan file run.bat yang tersedia pada starter pack
-  Selamat Mencoba!
+
+   ![image](https://cdn.discordapp.com/attachments/941288781401698307/944253492451737681/unknown.png)
+   
+Selamat Mencoba!
     
 ## Penulis
 <table>
