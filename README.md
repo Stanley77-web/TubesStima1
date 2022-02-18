@@ -65,6 +65,8 @@ Program ini disarankan hanya digunakan di windows OS. Untuk menjalan program ada
 
    ![image](https://cdn.discordapp.com/attachments/941288781401698307/944253492451737681/unknown.png)
 
+Untuk dapat melihat hasil permainan dengan menggunakan visualizer pada [link disini](https://github.com/Affuta/overdrive-round-runner) (Optional) 
+
 Selamat Mencoba!
     
 ## Penulis
