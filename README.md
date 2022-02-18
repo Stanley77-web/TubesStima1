@@ -30,7 +30,7 @@ hasil kompresi gambar (perubahan jumlah pixel gambar).
 ***[Perhatikan]***
 **Pada pentunjuk ini diasumsikan pengguna sudah mendownload starter pack zip [disini ini](https://github.com/EntelectChallenge/2020-Overdrive/releases/tag/2020.3.4)**
 Program ini disarankan hanya digunakan di windows OS. Untuk menjalan program ada dua pilihan cara, yaitu 
-1. Menggunakan fitur maven pada IntelIiJ IDEA :
+A. Menggunakan fitur maven pada IntelIiJ IDEA :
 
   1. Copykan seluruh isi file pada folder src ke ```\starter-bots\java```
   2. Buka folder starter menggunakan IntelIij IDEA
@@ -55,7 +55,7 @@ Program ini disarankan hanya digunakan di windows OS. Untuk menjalan program ada
 
    ![image](https://cdn.discordapp.com/attachments/941288781401698307/944253492451737681/unknown.png)
 
-2. Langsung menggunakan file executable pada folder bin (syarat sudah pernah melakukan install menggunakan maven seperti langkah di atas):
+B. Langsung menggunakan file executable pada folder bin (syarat sudah pernah melakukan install menggunakan maven seperti langkah di atas):
 
   1. Copykan file .jar pada folder bin ke ```\starter-bots\java\target```    
   2. Ubah nama pada .jar tadi menjadi ```java-starter-bot-jar-with-dependencies.jar``` atau buka file ```bot.json``` pada ```\starter-bots\java``` kemudian ubah isi ```"botFileName":``` menjadi nama file .jar pada folder bin
