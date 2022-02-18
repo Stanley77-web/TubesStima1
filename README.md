@@ -1,5 +1,5 @@
 # Tugas Besar 1 IF 2211 Strategi Algoritma
-> Aplikasi Algoritma Brute Force untuk Membuat Suatu Program Solver untuk Permainan _Search Word Puzzle_
+> Aplikasi Algoritma Greedy untuk Membuat Bot untuk Permainan _Overdrive_
 
 ## Daftar Isi
   - [Tugas Besar 1 IF 2211 Strategi Algoritma](#tugas-besar-1-if-2211-strategi-algoritma)
@@ -11,7 +11,7 @@
 <!-- * [License](#license) -->
 
 ## Informasi Umum
-Membuat bot untuk permainan _overdrive_ dengan menggunakan memanfaatkan algoritma _greedy_ <br /> <br />
+Membuat bot untuk permainan _Overdrive_ dengan menggunakan memanfaatkan algoritma _greedy_ <br /> <br />
 Algoritma greedy yang digunakan dalam pengembangan bot ini adalah: 
 - Program mampu menerima file txt yang berisi file configurasi [matrix kumpulan huruf puzzle dan dilanjutkan dengan list kumpulan kata yang dicari].
 - Program mampu menampilkan output berupa jumlah perbandingan yang dilakukan dan waktu eksekusi program disertai dengan pemberitauan arah pencarian kata ditemukan
@@ -64,7 +64,7 @@ Program ini disarankan hanya digunakan di windows OS. Untuk menjalan program ada
   3. Untuk menjalankan program, langsung membukan file run.bat yang tersedia pada starter pack
 
    ![image](https://cdn.discordapp.com/attachments/941288781401698307/944253492451737681/unknown.png)
-   
+
 Selamat Mencoba!
     
 ## Penulis
