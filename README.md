@@ -22,53 +22,47 @@ hasil kompresi gambar (perubahan jumlah pixel gambar).
 ## Teknologi Digunakan
 - [Java - version 16.0.2](https://en.wikipedia.org/wiki/Java) 
 - [JRE - version 16.0.2+7-67](https://en.wikipedia.org/wiki/Java_(software_platform))
-- [NPM - version 8.1.0](https://nodejs.org/en/download/)
-- [IntelIiJ IDEA - edition 2021.3.2](https://www.jetbrains.com/idea/)
+- [NPM - version 8.1.0](https://nodejs.org/en/download/) **Optional**
+- [IntelIiJ IDEA - edition 2021.3.2](https://www.jetbrains.com/idea/) **Optional**
 - [Windows OS - version 10+](https://en.wikipedia.org/wiki/Microsoft_Windows) **Disarankan**
 
 ## Penggunaan
 ***[Perhatikan]***
-Program ini disarankan hanya digunakan di windows OS. Namun, pada windows biasanya tidak _enable support_ untuk pewarnaan tulisan pada terminal dengan memanfaatkan ANSI escape. Agar bisa terminal dapat _support_ dengan hal tersebut, berikut ini langkah-langkah untuk mengaktifkan ANSI escape
-1. Buka kolom pencarian pada _taskbar_
-2. Ketikan ```run``` pada kolom pencarian kemudian klik open seperti gambar berikut:
+**Pada pentunjuk ini diasumsikan pengguna sudah mendownload starter pack zip [disini ini](https://github.com/EntelectChallenge/2020-Overdrive/releases/tag/2020.3.4)**
+Program ini disarankan hanya digunakan di windows OS. Untuk menjalan program ada dua pilihan cara, yaitu 
+1. Menggunakan fitur maven pada IntelIiJ IDEA :
+  1. Copykan seluruh isi file pada folder src ke ```\starter-bots\java```
+  2. Buka folder starter menggunakan IntelIij IDEA
+  3. Tunggu hingga IntelIij IDEA menampilkan fitur maven pada bagian kanan atas seperti pada gambar di bawah ini:
 
-   ![image](https://media.discordapp.net/attachments/830474732477874226/935733597602730014/unknown.png?width=713&height=470)
+   ![image](https://cdn.discordapp.com/attachments/941288781401698307/944250982022385724/unknown.png)
 
-3. Ketika app ```run``` sudah terbuka, ketikan ```regedit``` kemudian klik 'OK' seperti gambar berikut:
+  4. Klik fitur maven pada gambar sebelumnya hingga menampilkan tampilan seperti pada gambar di bawah ini:
     
-   ![image](https://cdn.discordapp.com/attachments/830474732477874226/935734847014580244/unknown.png)
+   ![image](https://cdn.discordapp.com/attachments/941288781401698307/944251696475942912/unknown.png)
     
-4. Atur path menjadi ```Computer\HKEY_CURRENT_USER\Console``` lalu klik kanan pada area kosong dan ```new > DWORD (32-bit) Value``` seperti gambar berikut:
+  5. Klik  ```>``` pada bagian kiri ```java-reference-bot``` dan ```java-starter-bot``` hingga menampilkan pilihan menu seperti gambar berikut:
 
-   ![image](https://cdn.discordapp.com/attachments/830474732477874226/935738712711651378/unknown.png)
+   ![image](https://cdn.discordapp.com/attachments/941288781401698307/944252374724268102/unknown.png)
 
-5. Ganti nama variabel yang baru dibuat menjadi ```VirtualTerminalLevel```
+  6. Klik ```install``` pada kedua bagian pilihan menu tadi hinggan menampilkan gambar seperti:
 
-   ![image](https://cdn.discordapp.com/attachments/830474732477874226/935739023387942963/unknown.png)
-   ![image](https://cdn.discordapp.com/attachments/830474732477874226/935739508861829170/unknown.png)
+   ![image](https://cdn.discordapp.com/attachments/941288781401698307/944252814568345620/unknown.png)
+   ![image](https://cdn.discordapp.com/attachments/941288781401698307/944252920097046558/unknown.png)
 
-6. _Double_ klik pada variabel tersebut, kemudian ubah Value datanya dari ```0``` menjadi ```1```, kemudian klik ```OK``` seperti gambar berikut:
+  7. Untuk menjalankan program, langsung membukan file run.bat yang tersedia pada starter pack 
 
-   ![image](https://cdn.discordapp.com/attachments/830474732477874226/935740482762449026/unknown.png)
+   ![image](https://cdn.discordapp.com/attachments/941288781401698307/944253492451737681/unknown.png)
 
-Berikut ini cara menjalankan dan menggunakan program
-1. Klik folder program ```bin``` yang berisi file class dan jar seperti gambar berikut:
+2. Langsung menggunakan file executable pada folder bin
+  1. Copykan file .jar pada folder bin ke ```\starter-bots\java\target```    
+  2. Ubah nama pada .jar tadi menjadi ```java-starter-bot-jar-with-dependencies.jar``` atau buka file ```bot.json``` pada ```\starter-bots\java``` kemudian ubah isi ```"botFileName":``` menjadi nama file .jar pada folder bin
 
-  ![image](https://media.discordapp.net/attachments/830474732477874226/935741546496680016/unknown.png)
-  
-2. Buka terminal ```cmd``` atau ```powershell``` pada path folder tersebut dengan cara klik kanan pada area kosong kemudian klik ```Open in Windows Terminal``` seperti gambar berikut:
-
-  ![image](https://cdn.discordapp.com/attachments/830474732477874226/935741700624756756/unknown.png)
-  
-3. Ketikan ```java -jar --enable-preview SearchWord.jar``` pada terminal kemudian tekan ```enter``` 
-4. Masukan nama file configurasi dan juga versi brute force yang diinginkanseperti gambar dibawah ini
-
-  ![image](https://cdn.discordapp.com/attachments/830474732477874226/935743685310693387/unknown.png)
-
-5. Program akan menampilkan hasil pencarian kata dari file configurasi seperti gambar di bawah ini:
-
-  ![image](https://media.discordapp.net/attachments/830474732477874226/935724070757072906/unknown.png?width=1134&height=662)
-Selamat Mencoba!
+   ![image](https://cdn.discordapp.com/attachments/941288781401698307/944255748282654730/unknown.png) 
+   ![image](https://cdn.discordapp.com/attachments/941288781401698307/944256347195715594/unknown.png) 
+   
+  3. Untuk menjalankan program, langsung membukan file run.bat yang tersedia pada starter pack
+  Selamat Mencoba!
     
 ## Penulis
 <table>
